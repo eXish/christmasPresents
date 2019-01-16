@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: 2d89ecbc43de74669a45f74ff8a5d698
+timeCreated: 1543831874
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Object001
+    100004: Object002
+    100006: Object003
+    100008: Stack_of_Gifts_002
+    100010: Stack_of_Gifts_003
+    100012: Stack_of_Gifts_004
+    100014: Stack_of_Gifts_007
+    100016: Stack_of_Gifts_008
+    100018: Stack_of_Gifts_009
+    100020: Stack_of_Gifts_010
+    100022: Stack_of_Gifts_011
+    100024: Stack_of_Gifts_013
+    100026: Stack_of_Gifts_014
+    100028: Stack_of_Gifts_016
+    100030: Stack_of_Gifts_017
+    100032: Stack_of_Gifts_019
+    100034: Stack_of_Gifts_021
+    100036: Stack_of_Gifts_022
+    100038: Stack_of_Gifts_023
+    100040: Stack_of_Gifts_024
+    100042: Stack_of_Gifts_026
+    100044: Stack_of_Gifts_027
+    100046: Stack_of_Gifts_028
+    100048: Stack_of_Gifts_029
+    100050: Stack_of_Gifts_030
+    100052: Stack_of_Gifts_031
+    100054: Stack_of_Gifts_032
+    100056: Stack_of_Gifts_033
+    100058: Stack_of_Gifts_034
+    100060: Stack_of_Gifts_035
+    100062: Stack_of_Gifts_036
+    400000: //RootNode
+    400002: Object001
+    400004: Object002
+    400006: Object003
+    400008: Stack_of_Gifts_002
+    400010: Stack_of_Gifts_003
+    400012: Stack_of_Gifts_004
+    400014: Stack_of_Gifts_007
+    400016: Stack_of_Gifts_008
+    400018: Stack_of_Gifts_009
+    400020: Stack_of_Gifts_010
+    400022: Stack_of_Gifts_011
+    400024: Stack_of_Gifts_013
+    400026: Stack_of_Gifts_014
+    400028: Stack_of_Gifts_016
+    400030: Stack_of_Gifts_017
+    400032: Stack_of_Gifts_019
+    400034: Stack_of_Gifts_021
+    400036: Stack_of_Gifts_022
+    400038: Stack_of_Gifts_023
+    400040: Stack_of_Gifts_024
+    400042: Stack_of_Gifts_026
+    400044: Stack_of_Gifts_027
+    400046: Stack_of_Gifts_028
+    400048: Stack_of_Gifts_029
+    400050: Stack_of_Gifts_030
+    400052: Stack_of_Gifts_031
+    400054: Stack_of_Gifts_032
+    400056: Stack_of_Gifts_033
+    400058: Stack_of_Gifts_034
+    400060: Stack_of_Gifts_035
+    400062: Stack_of_Gifts_036
+    2300000: Object001
+    2300002: Object002
+    2300004: Object003
+    2300006: Stack_of_Gifts_002
+    2300008: Stack_of_Gifts_003
+    2300010: Stack_of_Gifts_004
+    2300012: Stack_of_Gifts_007
+    2300014: Stack_of_Gifts_008
+    2300016: Stack_of_Gifts_009
+    2300018: Stack_of_Gifts_010
+    2300020: Stack_of_Gifts_011
+    2300022: Stack_of_Gifts_013
+    2300024: Stack_of_Gifts_014
+    2300026: Stack_of_Gifts_016
+    2300028: Stack_of_Gifts_017
+    2300030: Stack_of_Gifts_019
+    2300032: Stack_of_Gifts_021
+    2300034: Stack_of_Gifts_022
+    2300036: Stack_of_Gifts_023
+    2300038: Stack_of_Gifts_024
+    2300040: Stack_of_Gifts_026
+    2300042: Stack_of_Gifts_027
+    2300044: Stack_of_Gifts_028
+    2300046: Stack_of_Gifts_029
+    2300048: Stack_of_Gifts_030
+    2300050: Stack_of_Gifts_031
+    2300052: Stack_of_Gifts_032
+    2300054: Stack_of_Gifts_033
+    2300056: Stack_of_Gifts_034
+    2300058: Stack_of_Gifts_035
+    2300060: Stack_of_Gifts_036
+    3300000: Object001
+    3300002: Object002
+    3300004: Object003
+    3300006: Stack_of_Gifts_002
+    3300008: Stack_of_Gifts_003
+    3300010: Stack_of_Gifts_004
+    3300012: Stack_of_Gifts_007
+    3300014: Stack_of_Gifts_008
+    3300016: Stack_of_Gifts_009
+    3300018: Stack_of_Gifts_010
+    3300020: Stack_of_Gifts_011
+    3300022: Stack_of_Gifts_013
+    3300024: Stack_of_Gifts_014
+    3300026: Stack_of_Gifts_016
+    3300028: Stack_of_Gifts_017
+    3300030: Stack_of_Gifts_019
+    3300032: Stack_of_Gifts_021
+    3300034: Stack_of_Gifts_022
+    3300036: Stack_of_Gifts_023
+    3300038: Stack_of_Gifts_024
+    3300040: Stack_of_Gifts_026
+    3300042: Stack_of_Gifts_027
+    3300044: Stack_of_Gifts_028
+    3300046: Stack_of_Gifts_029
+    3300048: Stack_of_Gifts_030
+    3300050: Stack_of_Gifts_031
+    3300052: Stack_of_Gifts_032
+    3300054: Stack_of_Gifts_033
+    3300056: Stack_of_Gifts_034
+    3300058: Stack_of_Gifts_035
+    3300060: Stack_of_Gifts_036
+    4300000: Object001
+    4300002: Object002
+    4300004: Object003
+    4300006: Stack_of_Gifts_002
+    4300008: Stack_of_Gifts_003
+    4300010: Stack_of_Gifts_004
+    4300012: Stack_of_Gifts_007
+    4300014: Stack_of_Gifts_008
+    4300016: Stack_of_Gifts_009
+    4300018: Stack_of_Gifts_010
+    4300020: Stack_of_Gifts_011
+    4300022: Stack_of_Gifts_013
+    4300024: Stack_of_Gifts_014
+    4300026: Stack_of_Gifts_016
+    4300028: Stack_of_Gifts_017
+    4300030: Stack_of_Gifts_019
+    4300032: Stack_of_Gifts_021
+    4300034: Stack_of_Gifts_022
+    4300036: Stack_of_Gifts_023
+    4300038: Stack_of_Gifts_024
+    4300040: Stack_of_Gifts_026
+    4300042: Stack_of_Gifts_027
+    4300044: Stack_of_Gifts_028
+    4300046: Stack_of_Gifts_029
+    4300048: Stack_of_Gifts_030
+    4300050: Stack_of_Gifts_031
+    4300052: Stack_of_Gifts_032
+    4300054: Stack_of_Gifts_033
+    4300056: Stack_of_Gifts_034
+    4300058: Stack_of_Gifts_035
+    4300060: Stack_of_Gifts_036
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
