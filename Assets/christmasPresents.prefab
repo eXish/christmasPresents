@@ -18398,8 +18398,6 @@ MonoBehaviour:
   numberOfGifts: 0000000000000000000000000000000000000000
   timerText: {fileID: 102886517073024200}
   correctTime: 0
-  TwitchHelpMessage: Use '!{0} tilt <rotation>' to to rotate the module. For ex. '!{0}
-    tilt up' To press the clock use '!{0} <hour>'! For ex. '!{0} press 5'
 --- !u!114 &114695771320191178
 MonoBehaviour:
   m_ObjectHideFlags: 1
