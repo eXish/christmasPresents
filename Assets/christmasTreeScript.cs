@@ -1,6 +1,4 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using KModkit;
@@ -143,68 +141,42 @@ public class christmasTreeScript : MonoBehaviour
             Debug.LogFormat("[Christmas Presents #{0}] Strike! You tried to open your presents at {1}. That is incorrect.", moduleId, timerText.text);
         }
     }
-    public void PressButtonTP(int hr)
-    {
-        if(moduleSolved)
-        {
-            return;
-        }
-        clockButton.AddInteractionPunch();
-        if(hr == correctTime)
-        {
-            moduleSolved = true;
-            GetComponent<KMBombModule>().HandlePass();
-            Audio.PlaySoundAtTransform("bells", transform);
-            Debug.LogFormat("[Christmas Presents #{0}] You opened your presents at {1}. That is correct. Module disarmed & Merry Christmas!", moduleId, timerText.text);
-        }
-        else
-        {
-            GetComponent<KMBombModule>().HandleStrike();
-            Debug.LogFormat("[Christmas Presents #{0}] Strike! You tried to open your presents at {1}. That is incorrect.", moduleId, timerText.text);
-        }
-    }
-    public string TwitchHelpMessage = "Use '!{0} tilt <rotation>' to to rotate the module. For ex. '!{0} tilt up' To press the clock use '!{0} <hour>'! For ex. '!{0} press 5'";
+
+    #region TwitchPlays
+
+    #pragma warning disable 414
+    private readonly string TwitchHelpMessage = "To press the clock use '!{0} <hour>'! (Number should be in a range of 7-20)";
+    #pragma warning restore 414
+
     IEnumerator ProcessTwitchCommand(string command)
     {
-        if (command.Equals("tilt up", StringComparison.InvariantCultureIgnoreCase)){
-            cModule.localRotation = Quaternion.Euler(90, 0, 0);
-
-            
-
-
-        }
-        if (command.Equals("tilt down", StringComparison.InvariantCultureIgnoreCase)){
-            cModule.localRotation = Quaternion.Euler(-90, 0, 0);
-
-            
-
-
-        }
-        if (command.Equals("tilt left", StringComparison.InvariantCultureIgnoreCase)){
-            cModule.localRotation = Quaternion.Euler(0, 90, 0);
-            
-            
-
-
-        }
-        if (command.Equals("tilt up", StringComparison.InvariantCultureIgnoreCase)){
-            cModule.localRotation = Quaternion.Euler(0, -90, 0);
-
-            
-
-
-        }
-        string commfinal=command.Replace("press ", "");
-        int tried;
-        if(int.TryParse(commfinal, out tried)){
-            tried = int.Parse(commfinal);
-            PressButtonTP(tried);
+        int hours = -1;
+        if(!int.TryParse(command, out hours))
+        {
+            yield return null;  
+            yield return "sendtochaterror Number not valid!";
             yield break;
         }
-        else{
-				yield return null;
-				yield return "sendtochaterror Digit not valid.";
-				yield break;
-			}
+        if(hour == hours)
+        {
+            yield return null;
+            clockButton.OnInteract();
+            yield break;
+        }
+        if (!(hours>=7 && hours<=20))
+        {
+            yield return null;
+            yield return "sendtochaterror Number out of range!";
+            yield break;
+        }
+        do
+        {
+            yield return "trycancel Button wasn't pressed due to a request to cancel.";
+        } while (hour != hours);
+        yield return null;
+        yield return new WaitForSeconds(0.02f);
+        clockButton.OnInteract();
     }
+
+    #endregion
 }
