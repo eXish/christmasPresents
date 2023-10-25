@@ -104,20 +104,17 @@ public class christmasTreeScript : MonoBehaviour
             if(minute == 60)
             {
                 minute = 0;
-            }
-            if(moduleSolved)
-            {
-                break;
-            }
-            timerText.text = hour.ToString("00") + ":" + minute.ToString("00");
-            if(minute == 59)
-            {
                 hour++;
                 if(hour == 21)
                 {
                     hour = 7;
                 }
             }
+            if(moduleSolved)
+            {
+                break;
+            }
+            timerText.text = hour.ToString("00") + ":" + minute.ToString("00");
         }
     }
 
